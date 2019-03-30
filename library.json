@@ -1,18 +1,17 @@
 {
-  "name": "WeatherStation",
+  "name": "WeatherStation32",
   "keywords": "embedded, display, oled",
-  "description": "A WiFi connected information display",
+  "description": "A WiFi connected information display. This is a fork of \"WeatherStation\" by Daniel Eichhorn (https://github.com/ThingPulse/esp8266-weather-station) with fixes for the ESP32.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ThingPulse/esp8266-weather-station"
+    "url": "https://github.com/Daniel-Amadeus/esp8266-weather-station"
   },
   "authors": {
-    "name": "Daniel Eichhorn",
-    "url": "https://blog.squix.org"
+    "name": "Daniel-Amadeus Johannes Glöckner",
+    "url": "https://daniel-amade.us"
   },
   "frameworks": "arduino",
   "platforms": [
-    "espressif8266",
     "espressif32"
   ],
   "version": "1.6.6"
